@@ -144,7 +144,7 @@ void loop() {
   // --- UNCOMMENT ONE OPTION BELOW TO RUN ---
 
   // OPTION 1: Binary (Bang-Bang) Control
-  targetAngle = transferBinary(distanceCM, SETPOINT_CM, 65, 115);
+  // targetAngle = transferBinary(distanceCM, SETPOINT_CM, 65, 115);
 
   // OPTION 2: Proportional (P) Control (Tweak gain Kp)
   // targetAngle = transferP(distanceCM, SETPOINT_CM, 3.5);
